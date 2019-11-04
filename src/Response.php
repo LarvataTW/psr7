@@ -74,6 +74,7 @@ class Response implements ResponseInterface
         507 => 'Insufficient Storage',
         508 => 'Loop Detected',
         511 => 'Network Authentication Required',
+        700 => 'data not found'
     ];
 
     /** @var string */
@@ -148,7 +149,7 @@ class Response implements ResponseInterface
 
     private function assertStatusCodeRange(int $statusCode)
     {
-        if ($statusCode < 100 || $statusCode >= 600) {
+        if (($statusCode < 100 || $statusCode >= 600) && $statusCode != 700) {
             throw new \InvalidArgumentException('Status code must be an integer value between 1xx and 5xx.');
         }
     }
