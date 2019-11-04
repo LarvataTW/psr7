@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GuzzleHttp\Tests\Psr7;
+namespace Larvatatw\Tests\Psr7;
 
 use GuzzleHttp\Psr7\Stream;
 use PHPUnit\Framework\TestCase;
@@ -357,7 +357,7 @@ class StreamTest extends TestCase
     }
 }
 
-namespace GuzzleHttp\Psr7;
+namespace Larvatatw\Psr7;
 
 use GuzzleHttp\Tests\Psr7\StreamTest;
 

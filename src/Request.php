@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GuzzleHttp\Psr7;
+namespace Larvatatw\Psr7;
 
 use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;

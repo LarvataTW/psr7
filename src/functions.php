@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Psr7;
+namespace Larvatatw\Psr7;
 
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\RequestInterface;

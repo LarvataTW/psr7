@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GuzzleHttp\Tests\Psr7;
+namespace Larvatatw\Tests\Psr7;
 
 use ReflectionProperty;
 use GuzzleHttp\Psr7\Stream;
